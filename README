@@ -1,0 +1,10 @@
+TJS-iOS: A simple & dirty port of TJS Script Interpreter
+
+!! This is a experimental project with lots of DIRTY HACKS.
+!! NOT intended for actual use.
+
+This is a simple experiment for preparing a cross-platform clone of TVP2.
+It includes a functional TJS interpreter, ported from the original TJS interpreter in TVP2, with a simple iOS GUI.
+A modified version of ncbind is also ported, for creating native classes.
+
+Used source code of Boost 1.30.2, and TJS2 Interpreter(by W.Dee<http://kikyou.info/tvp/>).

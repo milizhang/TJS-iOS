@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4388EAE1583951C00325F8F /* c_regex_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA01583951C00325F8F /* c_regex_traits.cpp */; };
+		D4388EAF1583951C00325F8F /* c_regex_traits_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA11583951C00325F8F /* c_regex_traits_common.cpp */; };
+		D4388EB01583951C00325F8F /* cpp_regex_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA21583951C00325F8F /* cpp_regex_traits.cpp */; };
+		D4388EB11583951C00325F8F /* cregex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA31583951C00325F8F /* cregex.cpp */; };
+		D4388EB21583951C00325F8F /* fileiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA41583951C00325F8F /* fileiter.cpp */; };
+		D4388EB31583951C00325F8F /* instances.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA51583951C00325F8F /* instances.cpp */; };
+		D4388EB41583951C00325F8F /* posix_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA61583951C00325F8F /* posix_api.cpp */; };
+		D4388EB51583951C00325F8F /* regex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA81583951C00325F8F /* regex.cpp */; };
+		D4388EB61583951C00325F8F /* regex_debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EA91583951C00325F8F /* regex_debug.cpp */; };
+		D4388EB71583951C00325F8F /* regex_synch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EAA1583951C00325F8F /* regex_synch.cpp */; };
+		D4388EB81583951C00325F8F /* w32_regex_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EAB1583951C00325F8F /* w32_regex_traits.cpp */; };
+		D4388EB91583951C00325F8F /* wide_posix_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EAC1583951C00325F8F /* wide_posix_api.cpp */; };
+		D4388EBA1583951C00325F8F /* winstances.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EAD1583951C00325F8F /* winstances.cpp */; };
+		D4388EBC158395A000325F8F /* TJSTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EBB158395A000325F8F /* TJSTest.cpp */; };
+		D4388EC415839C5400325F8F /* ncbind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EC015839C5400325F8F /* ncbind.cpp */; };
+		D4388EC515839C5400325F8F /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4388EC215839C5400325F8F /* readme.txt */; };
+		D4388EC615839C5400325F8F /* testbind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4388EC315839C5400325F8F /* testbind.cpp */; };
+		D4388EF91583B09400325F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4388EF81583B09400325F8F /* AppDelegate.m */; };
+		D4388EFD1583B0E400325F8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4388EFB1583B0E400325F8F /* ViewController.m */; };
+		D4388EFE1583B0E400325F8F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4388EFC1583B0E400325F8F /* ViewController.xib */; };
+		D49B5B4915836A2A00320111 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49B5B4815836A2A00320111 /* UIKit.framework */; };
+		D49B5B4B15836A2A00320111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49B5B4A15836A2A00320111 /* Foundation.framework */; };
+		D49B5B4D15836A2A00320111 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49B5B4C15836A2A00320111 /* CoreGraphics.framework */; };
+		D49B5B4F15836A2A00320111 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49B5B4E15836A2A00320111 /* GLKit.framework */; };
+		D49B5B5115836A2A00320111 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49B5B5015836A2A00320111 /* OpenGLES.framework */; };
+		D49B5B5715836A2C00320111 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D49B5B5515836A2C00320111 /* InfoPlist.strings */; };
+		D49B5B5915836A2C00320111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D49B5B5815836A2C00320111 /* main.m */; };
+		D49B5CBA1583702500320111 /* tjs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C681583702500320111 /* tjs.cpp */; };
+		D49B5CBB1583702500320111 /* tjs.tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C6A1583702500320111 /* tjs.tab.cpp */; };
+		D49B5CBC1583702500320111 /* tjsArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C6C1583702500320111 /* tjsArray.cpp */; };
+		D49B5CBD1583702500320111 /* tjsCompileControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C6F1583702500320111 /* tjsCompileControl.cpp */; };
+		D49B5CBE1583702500320111 /* tjsConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C711583702500320111 /* tjsConfig.cpp */; };
+		D49B5CBF1583702500320111 /* tjsDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C731583702500320111 /* tjsDate.cpp */; };
+		D49B5CC01583702500320111 /* tjsdate.tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C751583702500320111 /* tjsdate.tab.cpp */; };
+		D49B5CC11583702500320111 /* tjsDateParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C771583702500320111 /* tjsDateParser.cpp */; };
+		D49B5CC31583702500320111 /* tjsDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C7A1583702500320111 /* tjsDebug.cpp */; };
+		D49B5CC41583702500320111 /* tjsDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C7C1583702500320111 /* tjsDictionary.cpp */; };
+		D49B5CC51583702500320111 /* tjsDisassemble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C7E1583702500320111 /* tjsDisassemble.cpp */; };
+		D49B5CC61583702500320111 /* tjsError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C7F1583702500320111 /* tjsError.cpp */; };
+		D49B5CC71583702500320111 /* tjsException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C831583702500320111 /* tjsException.cpp */; };
+		D49B5CC81583702500320111 /* tjsGlobalStringMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C851583702500320111 /* tjsGlobalStringMap.cpp */; };
+		D49B5CC91583702500320111 /* tjsInterCodeExec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C881583702500320111 /* tjsInterCodeExec.cpp */; };
+		D49B5CCA1583702500320111 /* tjsInterCodeGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C8A1583702500320111 /* tjsInterCodeGen.cpp */; };
+		D49B5CCB1583702500320111 /* tjsInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C8C1583702500320111 /* tjsInterface.cpp */; };
+		D49B5CCC1583702500320111 /* tjsLex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C8E1583702500320111 /* tjsLex.cpp */; };
+		D49B5CCD1583702500320111 /* tjsMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C901583702500320111 /* tjsMath.cpp */; };
+		D49B5CCE1583702500320111 /* tjsMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C921583702500320111 /* tjsMessage.cpp */; };
+		D49B5CCF1583702500320111 /* tjsMT19937ar-cok.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C941583702500320111 /* tjsMT19937ar-cok.cpp */; };
+		D49B5CD01583702500320111 /* tjsNamespace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C961583702500320111 /* tjsNamespace.cpp */; };
+		D49B5CD11583702500320111 /* tjsNative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C981583702500320111 /* tjsNative.cpp */; };
+		D49B5CD21583702500320111 /* tjsObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C9A1583702500320111 /* tjsObject.cpp */; };
+		D49B5CD31583702500320111 /* tjspp.tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C9C1583702500320111 /* tjspp.tab.cpp */; };
+		D49B5CD41583702500320111 /* tjsRandomGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5C9E1583702500320111 /* tjsRandomGenerator.cpp */; };
+		D49B5CD51583702500320111 /* tjsRegExp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CA01583702500320111 /* tjsRegExp.cpp */; };
+		D49B5CD61583702500320111 /* tjsScriptBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CA21583702500320111 /* tjsScriptBlock.cpp */; };
+		D49B5CD71583702500320111 /* tjsScriptCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CA41583702500320111 /* tjsScriptCache.cpp */; };
+		D49B5CD81583702500320111 /* tjsString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CA61583702500320111 /* tjsString.cpp */; };
+		D49B5CD91583702500320111 /* tjsUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CA91583702500320111 /* tjsUtils.cpp */; };
+		D49B5CDA1583702500320111 /* tjsVariant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CAB1583702500320111 /* tjsVariant.cpp */; };
+		D49B5CDB1583702500320111 /* tjsVariantString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49B5CAD1583702500320111 /* tjsVariantString.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4388EA01583951C00325F8F /* c_regex_traits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_regex_traits.cpp; sourceTree = "<group>"; };
+		D4388EA11583951C00325F8F /* c_regex_traits_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_regex_traits_common.cpp; sourceTree = "<group>"; };
+		D4388EA21583951C00325F8F /* cpp_regex_traits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpp_regex_traits.cpp; sourceTree = "<group>"; };
+		D4388EA31583951C00325F8F /* cregex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cregex.cpp; sourceTree = "<group>"; };
+		D4388EA41583951C00325F8F /* fileiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileiter.cpp; sourceTree = "<group>"; };
+		D4388EA51583951C00325F8F /* instances.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = instances.cpp; sourceTree = "<group>"; };
+		D4388EA61583951C00325F8F /* posix_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = posix_api.cpp; sourceTree = "<group>"; };
+		D4388EA71583951C00325F8F /* primary_transform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = primary_transform.hpp; sourceTree = "<group>"; };
+		D4388EA81583951C00325F8F /* regex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regex.cpp; sourceTree = "<group>"; };
+		D4388EA91583951C00325F8F /* regex_debug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regex_debug.cpp; sourceTree = "<group>"; };
+		D4388EAA1583951C00325F8F /* regex_synch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regex_synch.cpp; sourceTree = "<group>"; };
+		D4388EAB1583951C00325F8F /* w32_regex_traits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = w32_regex_traits.cpp; sourceTree = "<group>"; };
+		D4388EAC1583951C00325F8F /* wide_posix_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wide_posix_api.cpp; sourceTree = "<group>"; };
+		D4388EAD1583951C00325F8F /* winstances.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = winstances.cpp; sourceTree = "<group>"; };
+		D4388EBB158395A000325F8F /* TJSTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TJSTest.cpp; sourceTree = "<group>"; };
+		D4388EBE15839C5400325F8F /* ncb_foreach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ncb_foreach.h; sourceTree = "<group>"; };
+		D4388EBF15839C5400325F8F /* ncb_invoke.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ncb_invoke.hpp; sourceTree = "<group>"; };
+		D4388EC015839C5400325F8F /* ncbind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ncbind.cpp; sourceTree = "<group>"; };
+		D4388EC115839C5400325F8F /* ncbind.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ncbind.hpp; sourceTree = "<group>"; };
+		D4388EC215839C5400325F8F /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D4388EC315839C5400325F8F /* testbind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testbind.cpp; sourceTree = "<group>"; };
+		D4388EC71583A7BC00325F8F /* TJSTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJSTest.h; sourceTree = "<group>"; };
+		D4388EF71583B09400325F8F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4388EF81583B09400325F8F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4388EFA1583B0E400325F8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4388EFB1583B0E400325F8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4388EFC1583B0E400325F8F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		D49B5B4415836A2A00320111 /* TJSiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJSiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49B5B4815836A2A00320111 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D49B5B4A15836A2A00320111 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D49B5B4C15836A2A00320111 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D49B5B4E15836A2A00320111 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		D49B5B5015836A2A00320111 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D49B5B5415836A2B00320111 /* TJSiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJSiOS-Info.plist"; sourceTree = "<group>"; };
+		D49B5B5615836A2C00320111 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D49B5B5815836A2C00320111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D49B5B5A15836A2D00320111 /* TJSiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TJSiOS-Prefix.pch"; sourceTree = "<group>"; };
+		D49B5C681583702500320111 /* tjs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjs.cpp; sourceTree = "<group>"; };
+		D49B5C691583702500320111 /* tjs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjs.h; sourceTree = "<group>"; };
+		D49B5C6A1583702500320111 /* tjs.tab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjs.tab.cpp; sourceTree = "<group>"; };
+		D49B5C6B1583702500320111 /* tjs.tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjs.tab.h; sourceTree = "<group>"; };
+		D49B5C6C1583702500320111 /* tjsArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsArray.cpp; sourceTree = "<group>"; };
+		D49B5C6D1583702500320111 /* tjsArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsArray.h; sourceTree = "<group>"; };
+		D49B5C6E1583702500320111 /* tjsCommHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsCommHead.h; sourceTree = "<group>"; };
+		D49B5C6F1583702500320111 /* tjsCompileControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsCompileControl.cpp; sourceTree = "<group>"; };
+		D49B5C701583702500320111 /* tjsCompileControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsCompileControl.h; sourceTree = "<group>"; };
+		D49B5C711583702500320111 /* tjsConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsConfig.cpp; sourceTree = "<group>"; };
+		D49B5C721583702500320111 /* tjsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsConfig.h; sourceTree = "<group>"; };
+		D49B5C731583702500320111 /* tjsDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsDate.cpp; sourceTree = "<group>"; };
+		D49B5C741583702500320111 /* tjsDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsDate.h; sourceTree = "<group>"; };
+		D49B5C751583702500320111 /* tjsdate.tab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsdate.tab.cpp; sourceTree = "<group>"; };
+		D49B5C761583702500320111 /* tjsdate.tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsdate.tab.h; sourceTree = "<group>"; };
+		D49B5C771583702500320111 /* tjsDateParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsDateParser.cpp; sourceTree = "<group>"; };
+		D49B5C781583702500320111 /* tjsDateParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsDateParser.h; sourceTree = "<group>"; };
+		D49B5C7A1583702500320111 /* tjsDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsDebug.cpp; sourceTree = "<group>"; };
+		D49B5C7B1583702500320111 /* tjsDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsDebug.h; sourceTree = "<group>"; };
+		D49B5C7C1583702500320111 /* tjsDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsDictionary.cpp; sourceTree = "<group>"; };
+		D49B5C7D1583702500320111 /* tjsDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsDictionary.h; sourceTree = "<group>"; };
+		D49B5C7E1583702500320111 /* tjsDisassemble.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsDisassemble.cpp; sourceTree = "<group>"; };
+		D49B5C7F1583702500320111 /* tjsError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsError.cpp; sourceTree = "<group>"; };
+		D49B5C801583702500320111 /* tjsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsError.h; sourceTree = "<group>"; };
+		D49B5C811583702500320111 /* tjsError_jp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsError_jp.h; sourceTree = "<group>"; };
+		D49B5C821583702500320111 /* tjsErrorDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsErrorDefs.h; sourceTree = "<group>"; };
+		D49B5C831583702500320111 /* tjsException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsException.cpp; sourceTree = "<group>"; };
+		D49B5C841583702500320111 /* tjsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsException.h; sourceTree = "<group>"; };
+		D49B5C851583702500320111 /* tjsGlobalStringMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsGlobalStringMap.cpp; sourceTree = "<group>"; };
+		D49B5C861583702500320111 /* tjsGlobalStringMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsGlobalStringMap.h; sourceTree = "<group>"; };
+		D49B5C871583702500320111 /* tjsHashSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsHashSearch.h; sourceTree = "<group>"; };
+		D49B5C881583702500320111 /* tjsInterCodeExec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsInterCodeExec.cpp; sourceTree = "<group>"; };
+		D49B5C891583702500320111 /* tjsInterCodeExec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsInterCodeExec.h; sourceTree = "<group>"; };
+		D49B5C8A1583702500320111 /* tjsInterCodeGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsInterCodeGen.cpp; sourceTree = "<group>"; };
+		D49B5C8B1583702500320111 /* tjsInterCodeGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsInterCodeGen.h; sourceTree = "<group>"; };
+		D49B5C8C1583702500320111 /* tjsInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsInterface.cpp; sourceTree = "<group>"; };
+		D49B5C8D1583702500320111 /* tjsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsInterface.h; sourceTree = "<group>"; };
+		D49B5C8E1583702500320111 /* tjsLex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsLex.cpp; sourceTree = "<group>"; };
+		D49B5C8F1583702500320111 /* tjsLex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsLex.h; sourceTree = "<group>"; };
+		D49B5C901583702500320111 /* tjsMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsMath.cpp; sourceTree = "<group>"; };
+		D49B5C911583702500320111 /* tjsMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsMath.h; sourceTree = "<group>"; };
+		D49B5C921583702500320111 /* tjsMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsMessage.cpp; sourceTree = "<group>"; };
+		D49B5C931583702500320111 /* tjsMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsMessage.h; sourceTree = "<group>"; };
+		D49B5C941583702500320111 /* tjsMT19937ar-cok.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "tjsMT19937ar-cok.cpp"; sourceTree = "<group>"; };
+		D49B5C951583702500320111 /* tjsMT19937ar-cok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tjsMT19937ar-cok.h"; sourceTree = "<group>"; };
+		D49B5C961583702500320111 /* tjsNamespace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsNamespace.cpp; sourceTree = "<group>"; };
+		D49B5C971583702500320111 /* tjsNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsNamespace.h; sourceTree = "<group>"; };
+		D49B5C981583702500320111 /* tjsNative.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsNative.cpp; sourceTree = "<group>"; };
+		D49B5C991583702500320111 /* tjsNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsNative.h; sourceTree = "<group>"; };
+		D49B5C9A1583702500320111 /* tjsObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsObject.cpp; sourceTree = "<group>"; };
+		D49B5C9B1583702500320111 /* tjsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsObject.h; sourceTree = "<group>"; };
+		D49B5C9C1583702500320111 /* tjspp.tab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjspp.tab.cpp; sourceTree = "<group>"; };
+		D49B5C9D1583702500320111 /* tjspp.tab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjspp.tab.h; sourceTree = "<group>"; };
+		D49B5C9E1583702500320111 /* tjsRandomGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsRandomGenerator.cpp; sourceTree = "<group>"; };
+		D49B5C9F1583702500320111 /* tjsRandomGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsRandomGenerator.h; sourceTree = "<group>"; };
+		D49B5CA01583702500320111 /* tjsRegExp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsRegExp.cpp; sourceTree = "<group>"; };
+		D49B5CA11583702500320111 /* tjsRegExp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsRegExp.h; sourceTree = "<group>"; };
+		D49B5CA21583702500320111 /* tjsScriptBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsScriptBlock.cpp; sourceTree = "<group>"; };
+		D49B5CA31583702500320111 /* tjsScriptBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsScriptBlock.h; sourceTree = "<group>"; };
+		D49B5CA41583702500320111 /* tjsScriptCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsScriptCache.cpp; sourceTree = "<group>"; };
+		D49B5CA51583702500320111 /* tjsScriptCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsScriptCache.h; sourceTree = "<group>"; };
+		D49B5CA61583702500320111 /* tjsString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsString.cpp; sourceTree = "<group>"; };
+		D49B5CA71583702500320111 /* tjsString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsString.h; sourceTree = "<group>"; };
+		D49B5CA81583702500320111 /* tjsTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsTypes.h; sourceTree = "<group>"; };
+		D49B5CA91583702500320111 /* tjsUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsUtils.cpp; sourceTree = "<group>"; };
+		D49B5CAA1583702500320111 /* tjsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsUtils.h; sourceTree = "<group>"; };
+		D49B5CAB1583702500320111 /* tjsVariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsVariant.cpp; sourceTree = "<group>"; };
+		D49B5CAC1583702500320111 /* tjsVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsVariant.h; sourceTree = "<group>"; };
+		D49B5CAD1583702500320111 /* tjsVariantString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tjsVariantString.cpp; sourceTree = "<group>"; };
+		D49B5CAE1583702500320111 /* tjsVariantString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tjsVariantString.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49B5B4115836A2900320111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49B5B4915836A2A00320111 /* UIKit.framework in Frameworks */,
+				D49B5B4B15836A2A00320111 /* Foundation.framework in Frameworks */,
+				D49B5B4D15836A2A00320111 /* CoreGraphics.framework in Frameworks */,
+				D49B5B4F15836A2A00320111 /* GLKit.framework in Frameworks */,
+				D49B5B5115836A2A00320111 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4388E9F1583951C00325F8F /* regex_src */ = {
+			isa = PBXGroup;
+			children = (
+				D4388EA01583951C00325F8F /* c_regex_traits.cpp */,
+				D4388EA11583951C00325F8F /* c_regex_traits_common.cpp */,
+				D4388EA21583951C00325F8F /* cpp_regex_traits.cpp */,
+				D4388EA31583951C00325F8F /* cregex.cpp */,
+				D4388EA41583951C00325F8F /* fileiter.cpp */,
+				D4388EA51583951C00325F8F /* instances.cpp */,
+				D4388EA61583951C00325F8F /* posix_api.cpp */,
+				D4388EA71583951C00325F8F /* primary_transform.hpp */,
+				D4388EA81583951C00325F8F /* regex.cpp */,
+				D4388EA91583951C00325F8F /* regex_debug.cpp */,
+				D4388EAA1583951C00325F8F /* regex_synch.cpp */,
+				D4388EAB1583951C00325F8F /* w32_regex_traits.cpp */,
+				D4388EAC1583951C00325F8F /* wide_posix_api.cpp */,
+				D4388EAD1583951C00325F8F /* winstances.cpp */,
+			);
+			path = regex_src;
+			sourceTree = "<group>";
+		};
+		D4388EBD15839C5400325F8F /* ncbind */ = {
+			isa = PBXGroup;
+			children = (
+				D4388EBE15839C5400325F8F /* ncb_foreach.h */,
+				D4388EBF15839C5400325F8F /* ncb_invoke.hpp */,
+				D4388EC015839C5400325F8F /* ncbind.cpp */,
+				D4388EC115839C5400325F8F /* ncbind.hpp */,
+				D4388EC215839C5400325F8F /* readme.txt */,
+				D4388EC315839C5400325F8F /* testbind.cpp */,
+			);
+			path = ncbind;
+			sourceTree = "<group>";
+		};
+		D49B5B3915836A0F00320111 = {
+			isa = PBXGroup;
+			children = (
+				D4388EBD15839C5400325F8F /* ncbind */,
+				D4388E9F1583951C00325F8F /* regex_src */,
+				D49B5C5B1583702300320111 /* tjs2 */,
+				D49B5B5215836A2A00320111 /* TJSiOS */,
+				D49B5B4715836A2A00320111 /* Frameworks */,
+				D49B5B4515836A2A00320111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49B5B4515836A2A00320111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49B5B4415836A2A00320111 /* TJSiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49B5B4715836A2A00320111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49B5B4815836A2A00320111 /* UIKit.framework */,
+				D49B5B4A15836A2A00320111 /* Foundation.framework */,
+				D49B5B4C15836A2A00320111 /* CoreGraphics.framework */,
+				D49B5B4E15836A2A00320111 /* GLKit.framework */,
+				D49B5B5015836A2A00320111 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49B5B5215836A2A00320111 /* TJSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D49B5B5315836A2B00320111 /* Supporting Files */,
+				D4388EBB158395A000325F8F /* TJSTest.cpp */,
+				D4388EC71583A7BC00325F8F /* TJSTest.h */,
+				D4388EF71583B09400325F8F /* AppDelegate.h */,
+				D4388EFA1583B0E400325F8F /* ViewController.h */,
+				D4388EFB1583B0E400325F8F /* ViewController.m */,
+				D4388EFC1583B0E400325F8F /* ViewController.xib */,
+				D4388EF81583B09400325F8F /* AppDelegate.m */,
+			);
+			path = TJSiOS;
+			sourceTree = "<group>";
+		};
+		D49B5B5315836A2B00320111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D49B5B5415836A2B00320111 /* TJSiOS-Info.plist */,
+				D49B5B5515836A2C00320111 /* InfoPlist.strings */,
+				D49B5B5815836A2C00320111 /* main.m */,
+				D49B5B5A15836A2D00320111 /* TJSiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D49B5C5B1583702300320111 /* tjs2 */ = {
+			isa = PBXGroup;
+			children = (
+				D49B5C681583702500320111 /* tjs.cpp */,
+				D49B5C691583702500320111 /* tjs.h */,
+				D49B5C6A1583702500320111 /* tjs.tab.cpp */,
+				D49B5C6B1583702500320111 /* tjs.tab.h */,
+				D49B5C6C1583702500320111 /* tjsArray.cpp */,
+				D49B5C6D1583702500320111 /* tjsArray.h */,
+				D49B5C6E1583702500320111 /* tjsCommHead.h */,
+				D49B5C6F1583702500320111 /* tjsCompileControl.cpp */,
+				D49B5C701583702500320111 /* tjsCompileControl.h */,
+				D49B5C711583702500320111 /* tjsConfig.cpp */,
+				D49B5C721583702500320111 /* tjsConfig.h */,
+				D49B5C731583702500320111 /* tjsDate.cpp */,
+				D49B5C741583702500320111 /* tjsDate.h */,
+				D49B5C751583702500320111 /* tjsdate.tab.cpp */,
+				D49B5C761583702500320111 /* tjsdate.tab.h */,
+				D49B5C771583702500320111 /* tjsDateParser.cpp */,
+				D49B5C781583702500320111 /* tjsDateParser.h */,
+				D49B5C7A1583702500320111 /* tjsDebug.cpp */,
+				D49B5C7B1583702500320111 /* tjsDebug.h */,
+				D49B5C7C1583702500320111 /* tjsDictionary.cpp */,
+				D49B5C7D1583702500320111 /* tjsDictionary.h */,
+				D49B5C7E1583702500320111 /* tjsDisassemble.cpp */,
+				D49B5C7F1583702500320111 /* tjsError.cpp */,
+				D49B5C801583702500320111 /* tjsError.h */,
+				D49B5C811583702500320111 /* tjsError_jp.h */,
+				D49B5C821583702500320111 /* tjsErrorDefs.h */,
+				D49B5C831583702500320111 /* tjsException.cpp */,
+				D49B5C841583702500320111 /* tjsException.h */,
+				D49B5C851583702500320111 /* tjsGlobalStringMap.cpp */,
+				D49B5C861583702500320111 /* tjsGlobalStringMap.h */,
+				D49B5C871583702500320111 /* tjsHashSearch.h */,
+				D49B5C881583702500320111 /* tjsInterCodeExec.cpp */,
+				D49B5C891583702500320111 /* tjsInterCodeExec.h */,
+				D49B5C8A1583702500320111 /* tjsInterCodeGen.cpp */,
+				D49B5C8B1583702500320111 /* tjsInterCodeGen.h */,
+				D49B5C8C1583702500320111 /* tjsInterface.cpp */,
+				D49B5C8D1583702500320111 /* tjsInterface.h */,
+				D49B5C8E1583702500320111 /* tjsLex.cpp */,
+				D49B5C8F1583702500320111 /* tjsLex.h */,
+				D49B5C901583702500320111 /* tjsMath.cpp */,
+				D49B5C911583702500320111 /* tjsMath.h */,
+				D49B5C921583702500320111 /* tjsMessage.cpp */,
+				D49B5C931583702500320111 /* tjsMessage.h */,
+				D49B5C941583702500320111 /* tjsMT19937ar-cok.cpp */,
+				D49B5C951583702500320111 /* tjsMT19937ar-cok.h */,
+				D49B5C961583702500320111 /* tjsNamespace.cpp */,
+				D49B5C971583702500320111 /* tjsNamespace.h */,
+				D49B5C981583702500320111 /* tjsNative.cpp */,
+				D49B5C991583702500320111 /* tjsNative.h */,
+				D49B5C9A1583702500320111 /* tjsObject.cpp */,
+				D49B5C9B1583702500320111 /* tjsObject.h */,
+				D49B5C9C1583702500320111 /* tjspp.tab.cpp */,
+				D49B5C9D1583702500320111 /* tjspp.tab.h */,
+				D49B5C9E1583702500320111 /* tjsRandomGenerator.cpp */,
+				D49B5C9F1583702500320111 /* tjsRandomGenerator.h */,
+				D49B5CA01583702500320111 /* tjsRegExp.cpp */,
+				D49B5CA11583702500320111 /* tjsRegExp.h */,
+				D49B5CA21583702500320111 /* tjsScriptBlock.cpp */,
+				D49B5CA31583702500320111 /* tjsScriptBlock.h */,
+				D49B5CA41583702500320111 /* tjsScriptCache.cpp */,
+				D49B5CA51583702500320111 /* tjsScriptCache.h */,
+				D49B5CA61583702500320111 /* tjsString.cpp */,
+				D49B5CA71583702500320111 /* tjsString.h */,
+				D49B5CA81583702500320111 /* tjsTypes.h */,
+				D49B5CA91583702500320111 /* tjsUtils.cpp */,
+				D49B5CAA1583702500320111 /* tjsUtils.h */,
+				D49B5CAB1583702500320111 /* tjsVariant.cpp */,
+				D49B5CAC1583702500320111 /* tjsVariant.h */,
+				D49B5CAD1583702500320111 /* tjsVariantString.cpp */,
+				D49B5CAE1583702500320111 /* tjsVariantString.h */,
+			);
+			path = tjs2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49B5B4315836A2900320111 /* TJSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49B5B6D15836A3200320111 /* Build configuration list for PBXNativeTarget "TJSiOS" */;
+			buildPhases = (
+				D49B5B4015836A2900320111 /* Sources */,
+				D49B5B4115836A2900320111 /* Frameworks */,
+				D49B5B4215836A2900320111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJSiOS;
+			productName = TJSiOS;
+			productReference = D49B5B4415836A2A00320111 /* TJSiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49B5B3B15836A0F00320111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D49B5B3E15836A0F00320111 /* Build configuration list for PBXProject "TJSiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D49B5B3915836A0F00320111;
+			productRefGroup = D49B5B4515836A2A00320111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49B5B4315836A2900320111 /* TJSiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49B5B4215836A2900320111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49B5B5715836A2C00320111 /* InfoPlist.strings in Resources */,
+				D4388EC515839C5400325F8F /* readme.txt in Resources */,
+				D4388EFE1583B0E400325F8F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49B5B4015836A2900320111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49B5B5915836A2C00320111 /* main.m in Sources */,
+				D49B5CBA1583702500320111 /* tjs.cpp in Sources */,
+				D49B5CBB1583702500320111 /* tjs.tab.cpp in Sources */,
+				D49B5CBC1583702500320111 /* tjsArray.cpp in Sources */,
+				D49B5CBD1583702500320111 /* tjsCompileControl.cpp in Sources */,
+				D49B5CBE1583702500320111 /* tjsConfig.cpp in Sources */,
+				D49B5CBF1583702500320111 /* tjsDate.cpp in Sources */,
+				D49B5CC01583702500320111 /* tjsdate.tab.cpp in Sources */,
+				D49B5CC11583702500320111 /* tjsDateParser.cpp in Sources */,
+				D49B5CC31583702500320111 /* tjsDebug.cpp in Sources */,
+				D49B5CC41583702500320111 /* tjsDictionary.cpp in Sources */,
+				D49B5CC51583702500320111 /* tjsDisassemble.cpp in Sources */,
+				D49B5CC61583702500320111 /* tjsError.cpp in Sources */,
+				D49B5CC71583702500320111 /* tjsException.cpp in Sources */,
+				D49B5CC81583702500320111 /* tjsGlobalStringMap.cpp in Sources */,
+				D49B5CC91583702500320111 /* tjsInterCodeExec.cpp in Sources */,
+				D49B5CCA1583702500320111 /* tjsInterCodeGen.cpp in Sources */,
+				D49B5CCB1583702500320111 /* tjsInterface.cpp in Sources */,
+				D49B5CCC1583702500320111 /* tjsLex.cpp in Sources */,
+				D49B5CCD1583702500320111 /* tjsMath.cpp in Sources */,
+				D49B5CCE1583702500320111 /* tjsMessage.cpp in Sources */,
+				D49B5CCF1583702500320111 /* tjsMT19937ar-cok.cpp in Sources */,
+				D49B5CD01583702500320111 /* tjsNamespace.cpp in Sources */,
+				D49B5CD11583702500320111 /* tjsNative.cpp in Sources */,
+				D49B5CD21583702500320111 /* tjsObject.cpp in Sources */,
+				D49B5CD31583702500320111 /* tjspp.tab.cpp in Sources */,
+				D49B5CD41583702500320111 /* tjsRandomGenerator.cpp in Sources */,
+				D49B5CD51583702500320111 /* tjsRegExp.cpp in Sources */,
+				D49B5CD61583702500320111 /* tjsScriptBlock.cpp in Sources */,
+				D49B5CD71583702500320111 /* tjsScriptCache.cpp in Sources */,
+				D49B5CD81583702500320111 /* tjsString.cpp in Sources */,
+				D49B5CD91583702500320111 /* tjsUtils.cpp in Sources */,
+				D49B5CDA1583702500320111 /* tjsVariant.cpp in Sources */,
+				D49B5CDB1583702500320111 /* tjsVariantString.cpp in Sources */,
+				D4388EAE1583951C00325F8F /* c_regex_traits.cpp in Sources */,
+				D4388EAF1583951C00325F8F /* c_regex_traits_common.cpp in Sources */,
+				D4388EB01583951C00325F8F /* cpp_regex_traits.cpp in Sources */,
+				D4388EB11583951C00325F8F /* cregex.cpp in Sources */,
+				D4388EB21583951C00325F8F /* fileiter.cpp in Sources */,
+				D4388EB31583951C00325F8F /* instances.cpp in Sources */,
+				D4388EB41583951C00325F8F /* posix_api.cpp in Sources */,
+				D4388EB51583951C00325F8F /* regex.cpp in Sources */,
+				D4388EB61583951C00325F8F /* regex_debug.cpp in Sources */,
+				D4388EB71583951C00325F8F /* regex_synch.cpp in Sources */,
+				D4388EB81583951C00325F8F /* w32_regex_traits.cpp in Sources */,
+				D4388EB91583951C00325F8F /* wide_posix_api.cpp in Sources */,
+				D4388EBA1583951C00325F8F /* winstances.cpp in Sources */,
+				D4388EBC158395A000325F8F /* TJSTest.cpp in Sources */,
+				D4388EC415839C5400325F8F /* ncbind.cpp in Sources */,
+				D4388EC615839C5400325F8F /* testbind.cpp in Sources */,
+				D4388EF91583B09400325F8F /* AppDelegate.m in Sources */,
+				D4388EFD1583B0E400325F8F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D49B5B5515836A2C00320111 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49B5B5615836A2C00320111 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49B5B6B15836A3200320111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = boost;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49B5B6C15836A3200320111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = boost;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = boost;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49B5B6E15836A3200320111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJSiOS/TJSiOS-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TJSiOS/TJSiOS-Info.plist";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D49B5B6F15836A3200320111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJSiOS/TJSiOS-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "TJSiOS/TJSiOS-Info.plist";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49B5B3E15836A0F00320111 /* Build configuration list for PBXProject "TJSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49B5B6B15836A3200320111 /* Debug */,
+				D49B5B6C15836A3200320111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49B5B6D15836A3200320111 /* Build configuration list for PBXNativeTarget "TJSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49B5B6E15836A3200320111 /* Debug */,
+				D49B5B6F15836A3200320111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D49B5B3B15836A0F00320111 /* Project object */;
+}
