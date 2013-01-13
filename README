@@ -1,7 +1,6 @@
 TJS-iOS: A simple & dirty port of TJS Script Interpreter
 
-!! This is a experimental project with lots of DIRTY HACKS.
-!! NOT intended for actual use.
+!! Experimental project, NOT intended for actual use.
 
 This is a simple experiment for preparing a cross-platform clone of TVP2.
 It includes a functional TJS interpreter, ported from the original TJS interpreter in TVP2, with a simple iOS GUI.
